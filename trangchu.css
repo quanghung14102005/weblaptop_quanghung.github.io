@@ -1,0 +1,112 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#header {
+    background-color: #fff; 
+    padding: 20px 0; 
+    text-align: center;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+    left: 0;
+    top: 0;
+    right: 0;
+    z-index: 1;
+    position: fixed;
+}
+
+#logo {
+    display: inline-block;
+    vertical-align: middle; 
+    margin-right: 150px;
+}
+
+#logo img {
+    width: 200px; 
+}
+
+ul {
+    display: inline-block;
+    vertical-align: middle; 
+    margin-left: 90px;
+}
+
+ul li {
+    display: inline-block;
+    margin-right: 30px; 
+}
+
+ul li a {
+    text-decoration: none; 
+    color: #000; 
+    font-size: 16px; 
+    font-weight: bold;
+}
+
+ul li a:hover {
+    color: #012980; 
+}
+
+#list {
+    margin: 150px 50px 0;
+}
+
+.list-item {
+    background-color: #f4f4f4; /* Màu nền của mỗi mục tin */
+    padding: 20px; /* Khoảng cách bên trong mỗi mục tin */
+    margin-bottom: 20px; /* Khoảng cách giữa các mục tin */
+    border-radius: 5px;
+}
+
+.anhtintuc {
+    width: 100px; /* Kích thước của ảnh minh họa */
+    float: left; /* Đẩy ảnh về phía trái */
+    margin-right: 20px; /* Khoảng cách giữa ảnh và nội dung */
+}
+
+.tieude {
+    color: #333; /* Màu chữ của tiêu đề */
+    font-size: 18px; /* Kích thước chữ của tiêu đề */
+    text-decoration: none; /* Loại bỏ gạch chân từ liên kết */
+}
+
+.tieude:hover {
+    color: #000; /* Thay đổi màu chữ khi di chuột qua */
+}
+
+.tacgia {
+    color: #777; /* Màu chữ của tác giả */
+    font-size: 14px; /* Kích thước chữ của tác giả */
+}
+
+.vanban {
+    color: #555; /* Màu chữ của nội dung */
+    font-size: 16px; /* Kích thước chữ của nội dung */
+    margin-top: 10px; /* Khoảng cách từ tiêu đề xuống nội dung */
+}
+
+.tintuc{
+    margin-bottom: 40px;
+}
+
+#fooder{
+    margin-top: 40px;
+    padding: 30px 20px;
+    background-color: rgb(143, 166, 185);
+    line-height: 1.4;
+}
+
+#fooder .diachi{
+    display: inline-block;
+    width: 47%;
+    margin-left: 30px;
+}
+
+#fooder h4{
+    margin-bottom: 20px;
+}
